@@ -113,7 +113,7 @@ jobs:
           name: sing-box-${{ matrix.name }}
           path: sing-box*
       - name: Release
-        uses: softprops/action-gh-release@v0.1.5
+        uses: softprops/action-gh-release@1
         with:
           tag_name: ${{ env.TAG_NAME }}
           name: ${{ env.RELEASE_NAME }}
